@@ -1,0 +1,4 @@
+name = R Tildes
+description = Elimina las tildes de las urls y re-direcciona
+package = SEO
+core = 7.x

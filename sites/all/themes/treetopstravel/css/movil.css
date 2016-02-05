@@ -1,0 +1,1071 @@
+@media only screen and (max-width : 640px) {
+	#block-views-blog-block-art-rel .view-blog .views-row .group-left,
+	.front .listado-blog-sidebar.view-blog .views-row .group-left{
+		width: 140px;
+	}
+	#block-views-blog-block-art-rel .view-blog .views-row .group-left .field-name-field-imagen,
+	.front .listado-blog-sidebar.view-blog .views-row .group-left .field-name-field-imagen{
+		width: 140px;
+	}
+	#block-views-blog-block-art-rel .view-blog .views-row,
+	.listado-blog-sidebar.view-blog .views-row{
+		height: auto;
+	}
+	#block-views-blog-block-art-rel .view-blog .views-row .group-right .field-name-body,
+	.listado-blog-sidebar.view-blog .views-row .group-right .field-name-body{
+		height: auto;
+		overflow: visible;
+	}
+	.view-blog .views-row .group-left{
+		width: 144px;
+	}
+	.view-blog .views-row .group-right .field-name-title a{
+		font-size: 20px;
+	}
+	.view-blog .views-row .group-right .field-group-div div{
+		display:block;
+		line-height: 17px;
+	}
+	.view-blog .views-row .group-right .field-group-div.group-comm-views-date div.field{
+		border: none;
+	}
+	#block-views-equipo-block{
+		width: 400px;
+		margin: 0 auto;
+	}
+	.view-equipo .views-row{
+		margin-right: 0px;
+	}
+	.view-equipo .views-row:nth-child(3n){
+		margin-right: 0px;
+	}
+	.view-equipo div.views-row-odd{
+		margin-right: 23px !important;
+	}	
+	.listado-blog-sidebar.view-blog .views-row .group-right h3 a, #block-views-blog-block-art-rel .view-blog .views-row .group-right h3 a {
+	  font-size: 16px;
+	  line-height: 16px;
+	}	
+	.imagen-top-titulo h1{
+		font-size: 30px;
+	}
+	.node-type-page .transporte{
+		width: 400px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+	.node-type-page .transporte .right{
+		width: 225px;
+	}
+	.node-type-page .transporte .right h3{
+		margin-bottom: 12px;
+		text-align: center;
+	}
+	.node-type-page .transporte .right p{
+		line-height: 17px;
+	}
+	.front .listado-categorias-tours-atracciones .views-row .tipo-atraccion-caption a{
+		opacity: 1;
+	}
+	#block-block-5, #block-block-6{
+		padding-bottom: 10px;
+	}
+	header.header,  footer.footerzone{
+		overflow: visible;
+	}
+	div.main-content{
+
+	}
+	#block-system-main-menu{
+		height: 50px;
+	}
+	#top-header {
+	  height: 240px;
+	}
+	#block-custom-search-blocks-1{
+		display: none;
+	}	
+	#block-lang-dropdown-language{
+		padding-top: 0px;
+	}
+	#block-menu-menu-top-menu{
+		padding-top: 0px;
+	}
+	.logo-container{
+		float: none !important;
+		margin: 0 auto;
+		width: 260px;
+	}
+	#logo{
+		margin-left: 0px;
+	}
+	.tinynav-wrapper{
+	}
+	.tinynav-wrapper select{
+		height: 50px;
+		border: none;
+
+		background-color: transparent;
+    	color: #fff;
+	}
+
+	.tinynav-wrapper select option{
+		
+    	background-image: url('../images/bg_menu.png');
+    	background-repeat: repeat;
+	}		
+
+
+	.footer-left{
+		width: 200px;
+		margin: 0 auto;
+		float: none;
+		clear:both;
+		text-align:center;
+	}
+	.footer-right{
+		width: 200px;
+		margin: 0 auto;
+		float: none;
+		clear:both;
+	}
+	.redes-top-header{
+		float: none;
+		margin: 0 auto;
+	}
+	.logo-footer-content{
+		float: none;
+		margin: 0px;
+	}
+	.footer-left .block:first-child{
+		margin: 0px;
+	}
+	.footer-left .block, .contact-info-footer{
+		float:none;
+	}
+
+	/* Keylor */
+	.formulario-slider-home{
+		display: none;
+	}
+	.front .above-content {
+    	min-height: 150px;
+	}
+
+	.flexslider .flex-caption{
+		display: none;
+	}
+
+	.container-nav{
+		top: 70%;
+	}
+	.above-content{
+		margin-top: 51px;
+	}
+
+	.front .panels-flexible-region-home_layout-contenido{
+		float: none;
+    width: 100%;
+
+	}
+
+	.front .panels-flexible-region-home_layout-sidebar{
+		clear: both;
+	    float: none;
+	    margin: 20px auto;
+	    width: 360px;
+	    padding-left: 0;
+	}
+
+	.panels-flexible-home_layout .panels-flexible-region-inside-last {
+	    padding-right: 0;
+	    padding-left: 0;
+	}
+
+	.pane-tipo-de-atraccion .view-header h2.h2-verde{
+		text-align: center;
+	}
+
+	.listado-tours-recomedados h3{
+		text-align: center;
+	}
+
+	.front .pane-testimonios h2.pane-title{
+		font-size: 32px;
+		margin-top: 50px;
+	}
+
+	.front .pane-testimonios .jcarousel-skin-tango .jcarousel-container{
+		padding: 15px 50px 0;
+	}
+
+	.tours-oferta-desc {
+		display: block;
+	}
+	
+	.llamado-boton {
+		float: none;
+		clear: both;
+		margin: 0 auto;
+		text-align: center;
+		width: 30%;
+		line-height: 14px
+	}
+
+	.llamado-boton a{
+		background-image: none;
+		font-size: 16px;
+	}
+	.llamado-texto{
+		width: 100%;
+		text-align:center;
+	}
+
+	.llamado-texto p span{
+		font-size: 22px;
+	}
+
+
+	.llamado-texto p{
+		font-size: 18px;
+	}
+
+	.grid-1000.top-header-wrapper{
+		width: 382px;
+	}
+
+	#block-menu-menu-top-menu .menu li a{
+		font-size: 13px;
+	}
+
+	.lang-dropdown-select-element{
+		font-size: 13px;
+		width: 90px !important;
+	}
+	#block-lang-dropdown-language{
+		clear: none;
+		width: 95px;
+		margin-right: 0;
+		float: right !important;
+	}
+
+	#block-menu-menu-top-menu{
+		float: left;
+	}
+
+	#block-menu-menu-top-menu .menu{
+		margin-left: 0px;
+	}
+
+	.tinynav-wrapper {
+		float: none;
+		margin: 0 auto;
+	}
+	.footer-zone .lang-dropdown-select-element{
+		float: none;
+		margin: 15px auto 0;
+		display: block;
+	}
+
+
+	/* Atracciones */
+
+	.imagen-top-titulo{
+		text-align: center;
+		width: 100%;
+	}
+
+	.listado-categorias-tours-atracciones .view-content{
+		width: 314px;
+		margin: 20px auto;
+	}
+
+	.listado-categorias-tours-atracciones .views-row {
+  width: 100%;
+  overflow: hidden;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.listado-categorias-tours-atracciones .views-row:nth-child(3n) {
+  margin-right: 0;
+}
+
+
+/* Atracciones Zona */
+
+
+	
+
+	.view-atracciones .views-row .atraccion-info{
+		width: 100%;
+		height: auto;
+		padding-right: 30px;
+
+	}
+
+	.view-atracciones .views-row .atraccion-imagen {
+	  width: 100%;
+	  background: none;
+	  height: auto;
+	}
+
+	.view-atracciones .views-row .atraccion-imagen a img {
+	  width: 100%;
+	  position: relative;
+	  float: none;
+	  height: auto;
+	}
+
+	.view-atracciones .view-filters .form-type-select{
+		border-right: 0;
+	}
+
+	#block-easy-breadcrumb-easy-breadcrumb{
+		display: none;
+	}
+
+	.main-content{
+		margin-top: 40px;
+	}
+
+	/* Atracciones detalle */
+
+
+	.one-sidebar .main{
+		width: 100%;
+		  padding-right: 0;
+	}
+
+	.listado-tours-general .view-content .views-row .tour-list-item-imagen{
+		width: 30%;
+		overflow: hidden;
+	}
+
+	.listado-tours-general .view-content .views-row .tour-list-item-imagen a{
+		width: 100%;
+	}
+	
+	.listado-tours-general .view-content .views-row .tour-list-item-imagen img {
+		width: auto;
+	}
+
+	.listado-tours-general .view-content .views-row .tour-list-listado-detalles{
+		width: 70%;
+		overflow: hidden;
+	}
+
+	.listado-tours-general .view-content .views-row .tour-list-item-info{
+		width: 75%;
+	}
+
+	.listado-tours-general .view-content .views-row .tour-list-price-box{
+		width: 25%;
+	}
+
+	.listado-tours-recomedados h3{
+		font-size: 35px;
+	}
+
+	.listado-blog-sidebar.view-blog .views-row .group-left{
+		width: 35%;
+		overflow: hidden;
+	}
+
+	.listado-tours-general .view-content .views-row .tour-list-dias{
+		font-size: 14px !important;
+		line-height: 16px;
+	}
+
+	.listado-tours-general .view-content .views-row .tour-list-titulo a{
+		font-size: 18px;
+	}
+
+	.listado-tours-general .view-content .views-row .tour-list-locali{
+		font-size: 13px;
+	}
+
+	.slider-interno .flexslider .flex-control-paging{
+		top: 45px;
+	}
+
+	.view-filters-tags{
+		display: none;
+	}
+
+	.listado-tours-general .view-content .views-row .tour-list-tags{
+		display: none;
+	}
+
+
+	/* Destinos */
+
+	.view-id-destinos {
+	  width: 100%;
+	  margin: 0 auto;
+	}
+
+	.view-id-destinos .view-content .views-row {
+	  margin-left: 3%;
+	  margin-right: 3%;
+	  width: 44%;
+	  float: left;
+	  overflow: hidden;
+	}
+
+	
+
+	.view-id-destinos .view-content .views-row .top-destino-caption{
+		width: 75%;
+		top: 30%;
+	}
+
+	.view-id-destinos .view-content .views-row .top-destino-caption a{
+		font-size: 14px;
+	}
+
+	#block-views-regiones-block .ui-accordion .ui-accordion-content .views-row {
+	  float: left;
+	  width: 100%;
+
+	}
+
+	.no-encuentra-lo-que-busca h3{
+		font-size: 26px;
+	}
+
+	.no-encuentra-lo-que-busca h3 span{
+		font-size: 32px;
+	}
+
+	.front .pane-testimonios .jcarousel-skin-tango .jcarousel-clip-horizontal{
+		width: 100% !important;
+	}
+
+	.front .pane-testimonios .jcarousel-skin-tango .jcarousel-container{
+		height: auto;
+	}
+
+	.panels-flexible-tour_detail_layout .panels-flexible-region-first,
+	.panels-flexible-tour_detail_layout .panels-flexible-region{
+		width: 96%;
+		margin:  10px auto;
+		float: none;
+		padding: 0;
+	}
+
+	.panels-flexible-tour_detail_layout h2{
+		font-size: 28px;
+	}
+
+	.detalles-tours-col1 div{
+		font-size: 14px;
+	}
+
+	.compartir-box{
+		width: 318px;
+		float: none;
+		margin: 0 auto 10px;
+	}
+
+	.boton-reservar-tour{
+		width: 160px;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.actividades-por-dia-field .actividad-row .actividad-col-der{
+		padding-left: 3%;
+	}
+
+
+/* Viaje a su medida */
+
+	.formulario-estilo-general .form-type-checkbox {
+	  height: auto;
+	  width: 100%;
+	  margin-bottom: 10px !important;
+	}
+
+	#edit-submitted-condiciones-adicionales .form-type-checkbox, #edit-submitted-additional-conditions .form-type-checkbox, .webform-component--transporte .form-type-checkbox, .webform-component--transport .form-type-checkbox{
+		 margin-bottom: 10px !important;
+	}
+
+	.formulario-estilo-general .webform-progressbar{
+		padding:55px 30px;
+	}
+
+
+		.campo-fecha-paso2,
+	.webform-component--ano .form-item, .webform-component--year .form-item{
+		width: 100% !important;
+		margin-bottom: 15px;
+	}
+
+	.destinos-checkbox .webform-component{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.destinos-checkbox.webform-layout-box{
+	margin-bottom: 0;
+}
+
+#edit-submitted-alojamiento .form-type-checkbox, #edit-submitted-accommodation .form-type-checkbox{
+	width: 100% !important;
+}
+
+#edit-submitted-condiciones-adicionales .form-type-checkbox, #edit-submitted-additional-conditions .form-type-checkbox, .webform-component--transporte .form-type-checkbox, .webform-component--transport .form-type-checkbox{
+	width: 100% !important;
+}
+
+
+.form-viaje-a-su-medida .label-campos-personas .wrapper-campo-ninos{
+	margin-left: 94px;
+}
+
+
+.i18n-en .form-viaje-a-su-medida .label-campos-personas .wrapper-campo-ninos{
+	margin-left: 70px;
+}
+
+.label-campos-personas .webform-component--cuantas-personas-van-a-viajar-con-usted--personas-fila-1--habitaciones,
+.label-campos-personas .webform-component--how-many-people-will-travel-with-you--row-people--number-of-rooms{
+	width: 100%;
+	padding: 20px 0;
+}
+
+
+.form-viaje-a-su-medida .label-campos-personas .wrapper-campo-adultos{
+	padding: 20px 0;
+}
+
+
+.formulario-estilo-general .webform-component--paso-8 label{
+	width: 100%;
+	text-align: left;
+}
+
+.formulario-estilo-general .webform-component--paso-8 .form-text{
+	width: 100%;
+}
+
+.formulario-estilo-general .webform-component--paso-8 .form-textarea-wrapper{
+	width: 100%;
+}
+
+.form-item-submitted-paso-8-recibir-informacion-adicional-1, .form-item-submitted-paso-8-receive-additional-information-1{
+	width: 100% !important;
+}
+
+.imagen-top-titulo h1{
+	line-height: 44px;
+}
+
+
+.front .pane-testimonios .jcarousel-skin-tango .jcarousel-prev-horizontal,
+.front .pane-testimonios .jcarousel-skin-tango .jcarousel-next-horizontal{
+	top: -57px;
+}
+
+/*Hoteles y Tours*/
+
+
+.listado-hoteles-tours .views-row {
+    /*height: 230px;*/
+    margin: 0 6% 50px  !important;
+    overflow: hidden;
+    width: 38%;
+}
+
+#block-views-hoteles-y-tours-principal-block {
+    width: 100%;
+}
+
+.listado-hoteles-tours .views-row .tour-caption a{
+	font-size: 28px;
+}
+
+
+}
+
+@media only screen and (max-width : 400px) {
+	#block-block-14 div > span, #block-block-15 div > span{
+		margin-left: 0px;
+	}
+	#block-views-blog-block-art-rel .view-blog .views-row .group-left .field-name-field-imagen,
+	.listado-blog-sidebar.view-blog .views-row .group-left .field-name-field-imagen,
+	.front .listado-blog-sidebar.view-blog .views-row .group-left .field-name-field-imagen{
+		background: none;
+	}
+	#block-views-blog-block-art-rel .view-blog .views-row .group-right,
+	.listado-blog-sidebar.view-blog .views-row .group-right,
+	.front .listado-blog-sidebar.view-blog .views-row .group-right{
+		width: 100%;
+	}
+	#block-views-blog-block-art-rel .view-blog .views-row .group-right .field-name-node-link a,
+	.listado-blog-sidebar.view-blog .views-row .group-right .field-name-node-link a,
+	.front .listado-blog-sidebar.view-blog .views-row .group-right .field-name-node-link a{
+		float: none;
+		margin: 0 auto;
+		position: relative;
+	}
+	.view-blog .views-row,
+	.listado-blog-sidebar.view-blog .views-row,
+	.front .listado-blog-sidebar.view-blog .views-row{
+		padding-bottom: 23px;
+	}
+	.view-blog .views-row .group-left,
+	.listado-blog-sidebar.view-blog .views-row .group-left,
+	.front .listado-blog-sidebar.view-blog .views-row .group-left{
+		margin: 0 auto;
+		float: none;
+		background: none;		
+	}
+
+	.view-blog .views-row .group-right,
+	.listado-blog-sidebar.view-blog .views-row .group-right,
+	.front .listado-blog-sidebar.view-blog .views-row .group-right{
+		width: 100%;
+		text-align: center;
+	}
+	.view-blog .views-row .group-right .field-name-node-link a{
+		text-align: left;
+	}
+	.view-blog .views-row .group-right .field-group-div .field-name-field-etiquetas{
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 8px;
+		clear:both;
+		overflow:hidden;
+	}
+	.node-page h2{
+	  font-size: 30px;
+	  line-height: 30px;		
+	}
+	#block-views-equipo-block{
+		width: 180px;
+		margin: 0 auto;
+	}
+	.view-equipo div.views-row-odd{
+		margin-right: 0px !important;
+	}			
+	.node-type-page .transporte{
+		width: 300px;
+	}
+	.node-type-page .transporte .right{
+		float: none;
+		margin: 0 auto;		
+	}
+	.node-type-page .transporte .left{
+		float: none;
+		margin: 0 auto;	
+	}
+	#top-header {
+		height: 270px;
+	}
+	/*#block-block-1{
+		float: none !important;
+	}*/
+	#block-menu-menu-top-menu .menu{
+		float: none;
+	}
+	.form-item-lang-dropdown-select{
+		float: none !important;
+	}
+	#block-lang-dropdown-language{
+		float: none !important;
+		clear: both;
+		width: 95px;
+		margin: 0 auto;	
+	}
+
+	.front .view-tipo-de-atraccion .view-content {
+    margin: 0 auto;
+    width: 300px;
+}
+
+	.front .listado-categorias-tours-atracciones .views-row {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 175px;
+}
+
+.front .listado-categorias-tours-atracciones .views-row.views-row-3, .front .listado-categorias-tours-atracciones .views-row.views-row-6, .front .listado-categorias-tours-atracciones .views-row.views-row-9, .front .listado-categorias-tours-atracciones .views-row.views-row-12, .front .listado-categorias-tours-atracciones .views-row.views-row-15, .front .listado-categorias-tours-atracciones .views-row.views-row-18, .front .listado-categorias-tours-atracciones .views-row.views-row-21, .front .listado-categorias-tours-atracciones .views-row.views-row-24, .front .listado-categorias-tours-atracciones .views-row.views-row-27, .front .listado-categorias-tours-atracciones .views-row.views-row-30 {
+   float: none;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 175px;
+}
+
+.front .panels-flexible-region-home_layout-contenido{
+		float: none;
+    width: 100%;
+
+	}
+
+	.front .panels-flexible-region-home_layout-sidebar{
+		
+		clear: both;
+    float: none;
+    margin: 20px auto;
+    width: 100%;
+    padding-left: 0;
+    max-width: 360px;
+	}
+
+	.grid-1000.top-header-wrapper{
+		width: 320px;
+		margin: 0 auto;
+	}
+
+	#block-menu-menu-top-menu .menu li a{
+		font-size: 11px;
+	}
+
+	.lang-dropdown-select-element{
+		font-size: 11px;
+		width: 76px !important;
+	}
+	#block-lang-dropdown-language{
+		clear: none;
+		width: 76px;
+		float: right !important;
+	}
+
+	#block-menu-menu-top-menu{
+		float: left;
+		width: 228px;
+	}
+
+	#block-menu-menu-top-menu .menu{
+		margin-left: 0px;
+	}
+
+
+	#block-menu-menu-top-menu .menu li.menu-626 a{
+		width: 135px;
+	}
+
+	.imagen-top-box{
+		height: 150px;
+	}
+
+	.node-type-page .above-content{
+		min-height: 150px;
+	}
+
+	.imagen-top-box h1{
+		font-size:32px;
+	}
+
+	#block-views-tipo-de-atraccion-block-2 h2, #block-views-tipo-de-atraccion-block-3 h2,
+	#block-views-tipo-de-atraccion-block-1 h2, #block-views-tipo-de-atraccion-block h2{
+		  font-size: 26px;
+  			text-align: center;
+	}
+
+	/* Atracciones Zona */
+
+	.view-atracciones .views-row .atraccion-info{
+		padding: 20px;
+
+	}
+
+
+	.view-atracciones .views-row .atraccion-info .atraccion-titulo a{
+		font-size: 26px;
+	}
+
+	.view-atracciones .view-filters {
+	  width: 180px;
+	  margin: 0 auto 20px;
+	}
+
+	.view-atracciones .volver-atracciones {
+	  
+	  float: none;
+	  text-align: center;
+	}
+
+	.view-atracciones .view-filters .form-type-select{
+		padding: 0;
+		border-right: 0px;
+		padding-top: 6px;
+  		border-top: 1px solid #9BB53B;
+	}
+
+	h2{
+		text-align: center;
+		font-size: 28px;
+	}
+
+	.listado-tours-general .view-content{
+		width: 300px;
+		margin: 0 auto;	
+	}
+
+
+	.listado-tours-general .view-content .views-row .tour-list-item-imagen{
+		width: 100%;
+		float: left;
+
+	}
+		.listado-tours-general .view-content .views-row .tour-list-item-imagen img {
+	  width: 100%;
+	  height: auto;
+	  position: relative;
+	  float: left;
+	}
+
+	.listado-tours-general .view-content .views-row .tour-list-item-imagen a {
+	  width: 100%;
+	  background: none;
+	}
+
+	.listado-tours-general .view-content .views-row .tour-list-listado-detalles{
+		width: 100%;
+		padding: 3%;
+		float: left;
+	}
+
+	.listado-tours-general .view-content .views-row{
+		clear: both;
+  margin-bottom: 10px;
+  height: auto;
+  float: left;
+	}
+
+	.field-name-title h2{
+		font-size: 28px;
+	}
+
+	h1{
+		font-size: 32px;
+		text-align: center;
+	}
+
+	.one-sidebar #sidebar-first, #sidebar-second{
+		width: 96%;
+	}
+	
+	.listado-tours-general .view-content .views-row .tour-list-vermas a{
+		font-size: 11px;
+	}
+
+	.listado-blog-sidebar.view-blog .views-row .group-right h3 a, #block-views-blog-block-art-rel .view-blog .views-row .group-right h3 a{
+		font-size: 16px;
+	}
+
+
+	/* destinos */
+
+	.view-id-destinos {
+	  width: 100%;
+	  margin: 0 auto;
+	}
+
+	.view-id-destinos .view-content .views-row {
+	    margin-left: auto;
+		  margin-right: auto;
+		  width: 228px;
+		  float: none;
+		  overflow: hidden;
+		  display: block;
+	}
+
+	
+
+	.view-id-destinos .view-content .views-row .top-destino-caption{
+		width: 75%;
+		top: 30%;
+	}
+
+	.view-id-destinos .view-content .views-row .top-destino-caption a{
+		font-size: 14px;
+	}
+
+	.view-id-destinos .view-header h2{
+		font-size: 32px;
+	}
+
+	#block-views-regiones-block .ui-accordion-header a, .ui-accordion-header a:link, .ui-accordion-header a:visited{
+		font-size: 28px;
+	}
+
+	#block-views-regiones-block .ui-accordion .ui-accordion-content .views-row .views-field-title a{
+		font-size: 16px;
+	}
+
+	
+
+	.fila-2-tour .pane-detalles-de-productos{
+		display: none;
+	}
+
+	.detalles-tours-col2 .detalles-tour-precio-total{
+		width: 90px;
+		height: 90px;
+	}
+	.detalles-tours-col2 .detalles-tour-precio-total p{
+		line-height: 15px;
+
+	}
+
+	.detalles-tours-col2 .detalles-tour-precio-total p.detalles-tour-label-precio{
+		font-size: 18px;
+	}
+
+	.detalles-tours-col2 .detalles-tour-precio-total p.detalles-tour-precio-monto{
+		font-size: 28px;
+	}
+
+	.detalles-tours-col2 .detalles-tour-precio-total p.detalles-tour-precio-grupo{
+		font-size: 12px;
+	}
+
+
+.panels-flexible-tour_detail_layout .panels-flexible-region.grid-1-3{
+	width: 95%;
+}
+
+
+.panels-flexible-tour_detail_layout .formulario-estilo-general fieldset legend span{
+	font-size: 24px;
+}
+
+.panels-flexible-tour_detail_layout .formulario-estilo-general .webform-component label{
+	font-size: 14px;
+}
+
+.panels-flexible-tour_detail_layout .formulario-estilo-general .campo-nombre-pagina input, .panels-flexible-tour_detail_layout .formulario-estilo-general .campo-tipo-viaje input{
+	font-size: 14px;
+}
+
+.panels-flexible-tour_detail_layout .formulario-estilo-general .row-group div.wrapper-campo-ninos label{
+	margin-bottom: 6px;
+}
+
+.panels-flexible-tour_detail_layout .formulario-estilo-general .row-group div.wrapper-campo-ninos{
+	padding-left: 97px !important;
+}
+
+
+.i18n-en .panels-flexible-tour_detail_layout .formulario-estilo-general .row-group div.wrapper-campo-ninos{
+	padding-left: 88px !important;
+}
+
+.panels-flexible-tour_detail_layout .formulario-estilo-general .row-group div.wrapper-campo-menores-12{
+	padding-left: 137px !important;
+}
+
+
+.i18n-en .panels-flexible-tour_detail_layout .formulario-estilo-general .row-group div.wrapper-campo-menores-12{
+	padding-left: 128px !important;
+}
+
+.listado-tours-general form .views-exposed-widget{
+	width: 100%;
+	padding-right: 0;
+
+}
+
+.formulario-estilo-general .form-select{
+	font-size: 12px;
+}
+
+/* Viaje a su medida */
+
+.formulario-estilo-general h3{
+		font-size: 22px;
+		margin-top: 0;
+		 margin-bottom: 10px;
+	}
+
+	.formulario-estilo-general .paso{
+		  font-size: 33px;
+		  line-height: 60px;
+		  width: 60px;
+		  height: 60px;
+	}
+
+
+	/* Hoteles y Tours */
+
+	.listado-hoteles-tours .views-row {
+	   /* height: 230px;*/
+	    margin: 0 auto 40px  !important;
+	    overflow: hidden;
+	    float: none;
+	    width: 230px;
+	}
+
+	#block-views-hoteles-y-tours-principal-block {
+	    width: 100%;
+	}
+
+	.listado-hoteles-tours .views-row .tour-caption a{
+		font-size: 28px;
+	}
+
+
+
+
+
+}
+
+@media only screen and (max-width : 340px) {
+	.listado-categorias-tours-atracciones .view-content{
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.view-atracciones .views-row .atraccion-info .atraccion-vermas{
+		display: none;
+	}
+
+	.atraccion-desc{
+		margin-bottom: 0;
+	}
+
+	.node-type-atraccion .above-content, .node-type-destino .above-content, .vocabulary-tipo_de_viaje_atracciones .above-content{
+		min-height: 50px;
+	}
+
+	.slider-interno .flexslider .flex-control-paging{
+		top: 35px
+	}
+
+	.tours-oferta-desc{
+		display: none;
+	}
+
+	.one-sidebar #sidebar-first, #sidebar-second{
+		width: 100%;
+	}
+
+	.listado-tours-recomedados .views-row{
+		float: left;
+	}
+
+	.listado-tours-general .view-content .views-row{
+		overflow: hidden;
+	}
+
+	.listado-tours-general form label{
+		font-size: 11px;
+	}
+
+
+}
+
+@media only screen and (max-width : 300px) {
+.listado-tours-general .view-content{
+	width: 100%;
+}
+
+}
