@@ -278,9 +278,68 @@ jQuery(document).ajaxSuccess(function() {
 
   mover_tags_filtro_expuesto();
 
+  /*Agregado por Juan M. Martinez - Funcionalidad para extraer todos los enlaces del mapa y asignarlos a los enlaces del slider*/
+  jQuery(".mapa-capa2 #Map area").each(function(e){
+    var idRegionMapa = jQuery(this).attr("id");
+    var hrefMapa = jQuery(this).attr("href");
+    var idRegionSlider = '';
+    switch(idRegionMapa){
+      case 'caribe': 
+          idRegionSlider = 'maparegion-20';
+          break;
+      case 'llanuras-norte':
+          idRegionSlider = 'maparegion-14';
+          break;
+      case 'valle-central-alto': 
+          idRegionSlider = 'maparegion-108';
+          break;
+      case 'valle-central':
+          idRegionSlider = 'maparegion-8';
+          break;
+      case 'pacifico-sur': 
+          idRegionSlider = 'maparegion-12';
+          break;
+      case 'peninsula-nicoya':
+          idRegionSlider = 'maparegion-16';
+          break;
+      case 'pacifico-central': 
+          idRegionSlider = 'maparegion-10';
+          break;
+      case 'pacifico-norte':
+          idRegionSlider = 'maparegion-18';
+          break;
+    }
+    //buscar en el slider la region correspondiente para introducir la ruta
+    jQuery("#flexslider-1 li").each(function(){
+      var enlaceSlider = jQuery(this).find(".flex-caption a.enlace-destino");
+      if(jQuery(enlaceSlider).attr("id") == idRegionSlider){
+        jQuery(enlaceSlider).attr('href',hrefMapa);
+      }
+    });
+
+  });
+
+  /*Agregado por Juan M. Martinez - Funcionalidad del slider para los mapas*/
+  jQuery("#flexslider-1 .flex-direction-nav .flex-next").on('click',function(){
+    autoHoverMapaPorMedioSlider();
+  });
+
+  jQuery("#flexslider-1 .flex-direction-nav .flex-prev").on('click',function(){
+    autoHoverMapaPorMedioSlider();
+  });
 
 });
 
+
+function autoHoverMapaPorMedioSlider(){
+    var activeSlide = jQuery("#flexslider-1").find("li.flex-active-slide");
+    var enlace = jQuery(activeSlide).find(".flex-caption a.enlace-destino");
+    var idRegion = jQuery(enlace).attr("id");
+    
+    //ocultar todos
+    jQuery('.mapa-region').css('opacity', '0');
+    jQuery('.' + idRegion).css('opacity', '1');
+}
 
 function mover_tags_filtro_expuesto(){
 

@@ -66,6 +66,79 @@ appearance: none;
 	max-height: 622px;
 }
 
+.front .pane-slider-para-taxonom-as {
+	width: 394px;
+    position: absolute;
+    bottom: 35px;
+    height: 259px;
+    right: 0px;
+}
+
+.front .pane-slider-para-taxonom-as .flexslider .flex-caption {
+    height: 125px;
+    width: 68%;
+    right: 0px;
+    left: 0px;
+    top: 62px;
+    text-align: center;
+}
+
+.front .pane-slider-para-taxonom-as .flexslider .flex-caption h4 {
+	width: 266px;
+}
+
+.front .pane-slider-para-taxonom-as .flexslider .flex-caption h4 a {
+    background-image: url('../images/bg_menu.png');
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+
+#flexslider-1 .flex-direction-nav .flex-prev {
+	background-image: url('../images/mini-sprite-mapa-slider.png');	 
+	background-position-y: -42px;
+}
+
+#flexslider-1 .flex-direction-nav .flex-next {
+	background-image: url('../images/mini-sprite-mapa-slider.png');	 
+	background-position-y: -42px;
+}
+
+#flexslider-1 .flex-direction-nav a {
+	width: 40px;
+    height: 40px;
+}
+
+.enlace-destino {
+    padding-right: 43px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    background-color: #f48a1e;
+    background-image: url('../images/mini-sprite-mapa-slider.png');
+    background-position-y: -77px;
+    background-repeat: no-repeat;
+    background-position-x: 85px;
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 12px;
+    line-height: 37px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.front .pane-slider-para-taxonom-as .flexslider .field-name-title h2 {
+
+}
+
+.front .panels-flexible-region-home_layout-center-inside {
+	position: relative;
+}
+
 .node-type-atraccion .flex-viewport,
 .node-type-destino .flex-viewport,
 .node-type-page .flex-viewport,
@@ -3664,6 +3737,10 @@ h2.titulo-naranja-tours-listado{
 }
 .front .listado-tours-recomedados h3 {
 	  margin-top: 35px; margin-bottom: 35px;
+}
+
+.front .pane-slider-para-taxonom-as {
+
 }
 
 .pane-tipo-de-atraccion,

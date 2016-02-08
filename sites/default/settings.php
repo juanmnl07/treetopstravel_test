@@ -217,9 +217,9 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'treetopstravel', /*tttorbe_db*/ /*orbemail_treetopstravel2*/
+      'database' => 'treetopstravel_db', /*tttorbe_db*/ /*orbemail_treetopstravel2*/
       'username' => 'root', /*tttorbe_user*/ /*orbemail_treeu*/
-      'password' => '', /*tceE2780Jkfw*/ /*gG3BQSmVRfD7*/
+      'password' => 'root', /*tceE2780Jkfw*/ /*gG3BQSmVRfD7*/
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
